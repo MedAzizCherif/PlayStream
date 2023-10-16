@@ -1,0 +1,12 @@
+.game-item {
+    /* Add styling for each game item here */
+    margin-bottom: 20px;
+  }
+  
+  .game-image {
+    width: 300px; /* Set a width for the image container */
+    height: 200px; /* Set a height for the image container */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the image */
+  }
+  
