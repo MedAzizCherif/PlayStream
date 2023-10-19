@@ -1,0 +1,9 @@
+<p>game-list works!</p>
+<div *ngFor="let game of games" class="game-item">
+    <h2>{{ game.name }}</h2>
+    <p>{{ game.description }}</p>
+    <p>{{ game.genre }}</p>
+    <img [src]="sanitizeImageUrl(game.imageUrl)" alt="{{ game.name }}">
+    <button (click)="navigateToDetail(game.id)">View Details</button>
+    <!-- Add more game details as needed -->
+</div>
