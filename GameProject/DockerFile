@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8089
+ADD target/GameProject.jar GameProject.jar
+ENTRYPOINT ["java", "-jar", "GameProject.jar"]
